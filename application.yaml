@@ -4,7 +4,7 @@ metadata:
   name: myapp
   namespace: argocd
 spec:
-  project: default
+  project: myproject
   source:
     repoURL: https://github.com/emrahcom/argocd-example.git
     targetRevision: HEAD
